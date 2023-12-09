@@ -4,6 +4,13 @@
 
   (paper "A3")
 
+  (title_block
+    (title "AirMonitor")
+    (date "2023-12-09")
+    (rev "1.0.0")
+    (company "Jakub Jendryka")
+  )
+
   (lib_symbols
     (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 19.05 0)
@@ -4033,6 +4040,12 @@
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf" (at 173.99 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "ESP32-C3-MINI-1-N4" (at 173.99 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mouser" "356-ESP32-C3-MINI1N4" (at 173.99 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "12" (uuid 6bada17f-f853-4cc6-9688-611bf137fe86))
     (pin "39" (uuid bf835a0c-f583-46e0-872c-ede24b772c43))
     (pin "2" (uuid 8dcde7c5-7e0a-49bf-837f-5adb7b3e377c))
@@ -4798,6 +4811,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 217.17 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "NO_MPN" (at 217.17 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3e092df9-2001-43a3-8d2c-d32cd06a99aa))

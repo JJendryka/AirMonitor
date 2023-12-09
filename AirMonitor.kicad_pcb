@@ -46,6 +46,7 @@
 
   (setup
     (pad_to_mask_clearance 0)
+    (aux_axis_origin 99 159.4)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (plot_on_all_layers_selection 0x0000000_00000000)
@@ -3538,6 +3539,9 @@
   (gr_line (start 99 120) (end 99 159.4)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp d9f69cd7-b467-4c09-99ca-bafd117fb732))
   (gr_text "${TITLE}\nRev. ${REVISION}\nby: Jakub\nJendryka" (at 106 158.6 90) (layer "F.SilkS") (tstamp 72786bee-2766-42d4-aa33-a33bc3b14ed4)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "JLCJLCJLCJLC" (at 120.3 157.8) (layer "F.SilkS") (tstamp aa53601f-c048-4ffa-965a-ec9b31e023cb)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
 
